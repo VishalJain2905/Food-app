@@ -107,6 +107,7 @@ border-radius: 30px;
 background: #FA4A0C;
 color: #FFFFFF;
 box-shadow: 0px 10px 30px 0px #B7322733;
+
 }
 .home .btn-app {
     width: 200px;
@@ -319,6 +320,7 @@ display: flex;
     align-items: center;
 }
 .home-btn{
+    padding-left: 270px;
     padding-top: 30px;
 }
 .foot .btn{
@@ -342,14 +344,21 @@ border: 1px solid #FFFFFF;
 color: #FFFFFF;
 }
 
-
 @media (max-width: 880px) {
-    
     .foote {
         display: none;
     }
     .footeer {
         display: block;
+        
+    }
+    .home-btnbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .how img{
@@ -370,48 +379,39 @@ color: #FFFFFF;
         color: #252b4242;
 
     }
+    .home-btn {
+        padding-left: 0px;
+    }
     .home h3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* width: 119px; */
-    height: 36px;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0.10000000149011612px;
-    text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
     color:  #737373;
-    /* padding-bottom: 30px; */
-    
+
     }
     
     .home h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* width: 937px; */
-    /* height: 160px; */
-       font-family: Poppins;
-    font-size: 58px;
+       
+    color: #252B42;
+    font-family: Montserrat;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 43px;
     letter-spacing: 0.20000000298023224px;
     text-align: center;
-    color: #252b42;
-    /* padding-bottom: 30px; */
+    
     }
     .home h4{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 38px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: center;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        
     color: #737373;
 
     /* padding-bottom: 30px; */
@@ -445,9 +445,9 @@ color: #FFFFFF;
     border: 1px solid #FA4A0C
     }
     .phone img{
-    width: 400px;
+    width: 450px;
     height: auto;
-    padding-bottom: 280px;
+    padding-bottom: 210px;
     }
     .create img {
         width: 400px;
@@ -458,7 +458,7 @@ color: #FFFFFF;
         height: auto;
     }
     .how {
-        padding-top: 650px;
+        padding-top: 420px;
         padding-bottom: 87px;
     }
     .create .login h3 {
@@ -502,15 +502,20 @@ color: #FFFFFF;
               color: #BDBDBD;
             }
             .nav-item{
-                /* font-family: Montserrat;
-                font-size: 16px;
-                font-weight: 600;
-                line-height: 28px;
-                letter-spacing: 0.20000000298023224px;
-                text-align: center;
-                padding-right: 90px; */
                 list-style: none;
                 color: #252B42;
                 }
        
+}
+
+@media (max-width:424px) {
+    .how h2 {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: center;
+        
+    }
 }
