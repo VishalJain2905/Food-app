@@ -26,6 +26,10 @@ color: #252B42;
     height: 543px;
    background-size: cover;
 }
+.footeer  {
+    display: none ;
+    /* visibility: hidden; */
+}
 .content {
     /* width: 1005px; */
    
@@ -132,10 +136,24 @@ padding-right: 64px;
     padding-top: 550px;
 }
 
+
 .how img{
     padding-bottom: 20px;
 }
 .how h2{
+    /* width: 425px; */
+height: 36px;
+opacity: 0.8px;
+font-family: Poppins;
+font-size: 44px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+color: #000000;
+padding-top: 20px;
+}
+.howe h2{
     /* width: 425px; */
 height: 36px;
 opacity: 0.8px;
@@ -272,6 +290,34 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
+.footeer h2{
+    /* width: 503px; */
+/* height: 57px; */
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footeer h4{
+    /* width: 840px; */
+/* height: 38px; */
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .home-btn{
     padding-top: 30px;
 }
@@ -298,6 +344,14 @@ color: #FFFFFF;
 
 
 @media (max-width: 880px) {
+    
+    .foote {
+        display: none;
+    }
+    .footeer {
+        display: block;
+    }
+
     .how img{
         width: 370px;
     }
