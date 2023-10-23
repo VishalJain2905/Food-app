@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav section  */
+
+.nav-item{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+padding-right: 90px;
+color: #252B42;
+}
+/* Home section  */
+.home{
+    
+    background: url("../background.png")  no-repeat fixed center;
+    /* width: 1440px; */
+    height: 543px;
+   background-size: cover;
+}
+.content {
+    /* width: 1005px; */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-bottom: 150px; */
+    padding-top: 50px;
+}
+.home h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 119px; */
+height: 36px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+color: #FFFFFF;
+/* padding-bottom: 30px; */
+
+}
+
+.home h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 937px; */
+/* height: 160px; */
+   font-family: Poppins;
+font-size: 58px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+/* padding-bottom: 30px; */
+}
+.home h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #F6F6F6;
+/* padding-bottom: 30px; */
+/* padding-top: 10px; */
+}
+.homebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 20px;
+    padding-top: 20px;
+}
+.phonet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 540px;
+}
+.home .btn{
+    width: 200px;
+height: 60px;
+border-radius: 30px;
+background: #FA4A0C;
+color: #FFFFFF;
+box-shadow: 0px 10px 30px 0px #B7322733;
+}
+.home .btn-app {
+    width: 200px;
+height: 60px;
+border-radius: 30px;
+border: 1px;
+color: #FFFFFF;
+background: transparent;
+border: 1px solid #FFFFFF;
+}
+.phone img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 548px;
+height: 602px; */
+padding-right: 64px;
+}
+
+
+/* how section  */
+.how{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 550px;
+}
+
+.how img{
+    padding-bottom: 20px;
+}
+.how h2{
+    /* width: 425px; */
+height: 36px;
+opacity: 0.8px;
+font-family: Poppins;
+font-size: 44px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+color: #000000;
+padding-top: 20px;
+}
+
+/* Create section  */
+
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.create .login{
+    width: 568px;
+    gap: 70px;
+}
+.create .login h3 {
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #FA4A0C;
+}
+.create .login h2{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #252B42;
+}
+.create .login h4{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #737373;
+}
+
+.variety {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.variety .login{
+    width: 568px;
+    gap: 70px;
+}
+.variety .login h3 {
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #FA4A0C;
+}
+.variety .login h2{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #252B42;
+}
+.variety .login h4{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #737373;
+}
+
+/* foot section  */
+
+.foot {
+    background: url("../foot.png")  no-repeat fixed center;
+    /* width: 1440px; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.foote {
+    padding-top: 50px;
+}
+.foote h2{
+    /* width: 503px; */
+/* height: 57px; */
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foote h4{
+    /* width: 840px; */
+/* height: 38px; */
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-btn{
+    padding-top: 30px;
+}
+.foot .btn{
+    width: 142px;
+height: 64px;
+padding: 18px, 31px, 18px, 31px;
+border-radius: 10px;
+gap: 10px;
+background: #FA4A0C;
+color: #FFFFFF;
+}
+.foot .btn-app {
+    width: 173px;
+height: 60px;
+padding: 16px, 45px, 16px, 45px;
+border-radius: 10px;
+border: 1px;
+gap: 10px;
+background: transparent;
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
+}
+
+
+@media (max-width: 880px) {
+    .how img{
+        width: 370px;
+    }
+    .create{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .variety{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home{
+        background: none;
+    }
+    .content h1 h3 h4{
+        color: #252b4242;
+
+    }
+    .home h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 119px; */
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color:  #737373;
+    /* padding-bottom: 30px; */
+    
+    }
+    
+    .home h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 937px; */
+    /* height: 160px; */
+       font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #252b42;
+    /* padding-bottom: 30px; */
+    }
+    .home h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+
+    /* padding-bottom: 30px; */
+    /* padding-top: 10px; */
+    }
+    .homebtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .home .btn{
+        width: 236px;
+    height: 68px;
+    padding: 16px, 10px, 16px, 10px;
+    border-radius: 30px;
+    background: #FA4A0C;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 30px 0px #B7322733;
+    }
+    .home .btn-app {
+        width: 236px;
+    height: 68px;
+    padding: 16px, 10px, 16px, 10px;
+    border-radius: 30px;
+    border: 1px;
+    color:#FA4A0C;
+    ;
+    background: transparent;
+    border: 1px solid #FA4A0C
+    }
+    .phone img{
+    width: 400px;
+    height: auto;
+    padding-bottom: 280px;
+    }
+    .create img {
+        width: 400px;
+        height: auto;
+    }
+    .variety img {
+        width: 400px;
+        height: auto;
+    }
+    .how {
+        padding-top: 650px;
+        padding-bottom: 87px;
+    }
+    .create .login h3 {
+        text-align: center;
+        }
+        .create .login h2{
+        text-align: center;
+        }
+        .create .login h4{
+        text-align: center;
+        }
+        .variety .login h3 {
+        text-align: center;
+        }
+        .variety .login h2{
+        text-align: center;
+        }
+        .variety .login h4{
+        text-align: center;
+        }
+        .col-md-4 .footlogo{
+            display: none;
+        }
+        .nav-item {
+            padding-right: 0px;
+        }
+        .d-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .foot {
+            background:  #252B42;
+            }
+            .foote h2{
+              
+            color: #FFFFFF;
+            }
+            .foote h4{
+              color: #BDBDBD;
+            }
+            .nav-item{
+                /* font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 28px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                padding-right: 90px; */
+                list-style: none;
+                color: #252B42;
+                }
+       
+}
