@@ -22,3 +22,12 @@
 //     HTMLBaseElement.
 //   }
 // }
+
+let text;
+if (window.matchMedia("(max-width: 700px)").matches) {
+  text = "Most calendars are  designed for teams. ";
+}
+ else {
+  text = "Available on your favorite store. Start your premium experience now";
+}
+document.getElementById("foote").innerHTML = text;
