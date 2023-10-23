@@ -21,7 +21,7 @@ color: #252B42;
 /* Home section  */
 .home{
     
-    background: url("../background.png")  no-repeat fixed center;
+    background: url("./background.png")  no-repeat fixed center;
     /* width: 1440px; */
     height: 543px;
    background-size: cover;
@@ -232,7 +232,7 @@ color: #737373;
 /* foot section  */
 
 .foot {
-    background: url("../foot.png")  no-repeat fixed center;
+    background: url("./foot.png")  no-repeat fixed center;
     /* width: 1440px; */
     height: 400px;
     display: flex;
