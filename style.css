@@ -15,7 +15,7 @@ font-weight: 600;
 line-height: 28px;
 letter-spacing: 0.20000000298023224px;
 text-align: center;
-padding-right: 90px;
+padding-right: 50px;
 color: #252B42;
 }
 /* Home section  */
@@ -213,7 +213,7 @@ color: #737373;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding-left: 20px;
+    padding-left: 100px;
 }
 
 .variety .login{
@@ -371,6 +371,7 @@ color: #FFFFFF;
     .variety{
         display: flex;
         flex-wrap: wrap;
+        padding-left: 0px;
     }
     .home{
         background: none;
@@ -450,15 +451,17 @@ text-align: center;
     padding-bottom: 210px;
     }
     .create img {
-        width: 400px;
+        width: 517px;
         height: auto;
+        padding-left: 77px;
     }
     .variety img {
-        width: 400px;
+        width: 517px;
         height: auto;
+        padding-left: 77px;
     }
     .how {
-        padding-top: 420px;
+        padding-top: 450px;
         padding-bottom: 87px;
     }
     .create .login h3 {
